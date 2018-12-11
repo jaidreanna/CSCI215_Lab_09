@@ -24,4 +24,7 @@ app.post('/myPost', function(req, res) {
     console.log(req.body.firstname);
     console.log(req.body.lastname);
     res.json({"testdata" : "This is data."});
+
 });
+
+
